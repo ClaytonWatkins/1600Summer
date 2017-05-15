@@ -7,4 +7,5 @@ GitHub = webservice
 GitKraken = Local software for file managment and interfacing?
 
 "unstaged" = locally saved only
-"staged" = ready to sync with server
+"staged" = preparing to build placeholders on the service with local file names
+"Commit Changes to X files" = actually building placeholders on the server
