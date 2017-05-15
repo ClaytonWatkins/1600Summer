@@ -41,3 +41,5 @@ Extras:
 Install Unity version that matches the one on the lab computers
 Sololearn.com/course/csharp
 
+Things to learn:
+
