@@ -16,3 +16,5 @@ Descriptions are important, give yourself a reminder what the heck you were doin
 NO you will not remember once you have a thousand projects going.
 
 "Commit Changes to X files" = actually building placeholders on the server
+
+Other Notes:
