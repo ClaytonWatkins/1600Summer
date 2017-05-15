@@ -18,4 +18,5 @@ NO you will not remember once you have a thousand projects going.
 "Commit Changes to X files" = actually building placeholders on the server
 
 Other Notes:
-Pull = retrieved files from the server to work on locally
+Pull = retrieved files from the cloud to work on locally
+Push = sends the placeholder files you commited and syncs with the cloud
