@@ -25,7 +25,7 @@ Remember descriptions help you to know what you were thinking when you made the 
 
 Git file size limit is around 10MB
 Git file size we will likely deal with in class is only about 3MB
-
+If you need to manage larger files they may have to go through Google Drive or DropBox
 
 You can change the description and the Commit name after the fact
 
