@@ -11,3 +11,4 @@ GitKraken = Local software for file managment and interfacing?
 "Commit Changes to X files" = actually building placeholders on the server
 "WIP" = work in progress, meaning GitKraken see changes in the folders but does not know what they are yet
 change "WIP" = Naming the work being done
+Descriptions are important, give yourself a reminder what the heck you were doing. 
