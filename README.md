@@ -34,4 +34,6 @@ Create a GitHub Account
 GitKraken account is the same as a github
 Create a Unity Account
 
+Visual Studios for renderings?
+
 
