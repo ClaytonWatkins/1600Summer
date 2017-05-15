@@ -30,3 +30,6 @@ If you need to manage larger files they may have to go through Google Drive or D
 You can change the description and the Commit name after the fact
 
 C# pocket reference 4, 5, or 6
+Create a GitHub Account
+
+
