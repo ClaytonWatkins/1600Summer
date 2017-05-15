@@ -24,3 +24,5 @@ Push = sends the placeholder files you commited and syncs with the cloud
 Remember descriptions help you to know what you were thinking when you made the file/changes.
 
 Git file size limit is around 10MB
+
+You can change the description and the Commit name after the fact
