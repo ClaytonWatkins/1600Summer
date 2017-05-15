@@ -44,5 +44,6 @@ Sololearn.com/course/csharp
 Things to learn:
 Visual Studio
 Git
+C#
 
 
