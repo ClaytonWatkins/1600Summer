@@ -20,3 +20,5 @@ NO you will not remember once you have a thousand projects going.
 Other Notes:
 Pull = retrieved files from the cloud to work on locally
 Push = sends the placeholder files you commited and syncs with the cloud
+
+Remember descriptions help you to know what you were thinking when you made the file/changes.
