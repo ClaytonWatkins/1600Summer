@@ -1,23 +1,81 @@
 {
     class Program
-    {
+    
+{
         static void Main(string[] args)
-        {
+        
+{
             int x = 8;
+
             int y = 8;
+
             
             if (x > y)
-            
+       
+     
                 Console.WriteLine("WOW, you are so big.");
+
             
             if (x < y)
+
             
                 Console.WriteLine("Well, I am sure your Mom still loves you.");
+
                 
             if (x == y)
+
             
                 Console.WriteLine("I see your swarts is as big as mine.");
+
             
         }
+
     }
+
+}
+
+{
+    class Program
+
+    {
+        static void Main(string[] args)
+
+        {
+            int age = 18;
+
+            if (age > 14) {
+
+                if(age > 18){
+
+                    Console.WriteLine("Adult");
+
+                }
+
+                else {
+
+                    Console.WriteLine("Teenager");
+
+                }
+
+            }
+
+            else {
+
+                if (age > 0)
+ {
+                    Console.WriteLine("Child");
+
+                }
+                else {
+                   
+ Console.WriteLine("Something's wrong");
+
+                }
+
+            }
+
+        }
+
+    }
+
 }
