@@ -3,11 +3,13 @@ using System.Collections;
 
 public class Birds : AnimalScript {
 
-   //Properties of Birds
-   //Feathers
-   //Beaks
-   //Wings
-   //Legs 2
+    //Properties of Birds
+    //Feathers
+    //Beaks
+    //Wings
+    //Legs 2
+    //Color
+    public Color featherColor = Color.red;
 
 
     //Functions of Birds
