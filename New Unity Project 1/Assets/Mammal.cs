@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Mammal : AnimalScript {
+public class Mammal : AnimalScript
+{
 
     //Properties
     //Hair

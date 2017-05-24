@@ -1,15 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AggressiveBehaviors : MonoBehaviour {
+public class AggressiveBehaviors : AnimalScript
+{
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    //Properties
+    public bool makeNoise = false;
+
+    // Use this for initialization
+void OnEnable()
+    {
+        if (makeNoise)
+        {
+            print(this.name + " growls.");
+        }
+    }
 }
