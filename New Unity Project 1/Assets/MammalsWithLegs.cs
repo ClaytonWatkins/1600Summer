@@ -9,6 +9,8 @@ public class MammalsWithLegs : Mammal {
 
 
     //Functions
-    //Walk overrides move
-    //Run overrides move
+    //Move away (overrides Move)
+    public float SlowSpeed = 1.0f;
+    //Run away (Overrides Move away)
+    public float RunSpeed = 2.0f;
 }

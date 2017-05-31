@@ -8,11 +8,15 @@ public class AggressiveBehaviors : AnimalScript
     public bool makeNoise = false;
 
     // Use this for initialization
-void OnEnable()
+    void OnEnable()
     {
-        if (makeNoise)
+        if (animalName == "Rover")
         {
             print(this.name + " growls.");
+        }
+        else
+        {
+            print(this.name + " hisses.");
         }
     }
 }

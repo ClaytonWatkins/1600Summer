@@ -12,20 +12,16 @@ public class PassiveBehaviors : AnimalScript
     public string passiveAnimalName = "Cat";
 
     //FUNCTIONS
-    //Move away (overrides Move)
-    public float SlowSpeed = 0.0f;
-    //Run away (Overrides Move away
-    public float RunSpeed = 0.0f;
 
-    void Awake()
+    void OnEnable()
     {
-        if (passiveAnimalName == "Cat")
-        {
-            print(this.name + " purrs.");
-        }
-        if (2 + 5 == 7)
+        if (health > 7)
         {
             print(this.name + " jumps 7ft high.");
+        }
+        else
+        {
+            print(this.name + " falls down.");
         }
     }
 }

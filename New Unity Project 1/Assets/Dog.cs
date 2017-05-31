@@ -11,4 +11,11 @@ public class Dog : MammalsWithLegs {
     //Functions
     //Bark
     //Attack
+    void OnEnable()
+    {
+        if (makeNoise)
+        {
+            print(this.name + " barks.");
+        }
+    }
 }

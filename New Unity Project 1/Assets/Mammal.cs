@@ -11,10 +11,11 @@ public class Mammal : AnimalScript
     //Warm blooded
     //HowManyLegs {1, 2, 4}
     public int LegCount = 1;
-
+    public bool makeNoise = false;
 
     //Functions
     //Live Birth Overrides Reproduction
     //Feed Milk
     //Bite
+
 }

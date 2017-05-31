@@ -8,11 +8,11 @@ public class AnimalScript : MonoBehaviour {
     public string[] BodySegments = { "Head", "Abs", "Thorax" };
     public string animalName = "Jenny";
     //Health
-    public int Health = 100;
+    public int health = 100;
     //Speed
-    public float Speed = 0.0f;
+    public float speed = 1.0f;
     //Size
-    public string Size = "Big";
+    public string size = "Small";
     //Color
     public Color BaseColor = Color.black;
     public bool canEat = false;
@@ -20,8 +20,10 @@ public class AnimalScript : MonoBehaviour {
     //Functions (things they do)
     //Breathe
     //Reproduce
-    //Eat
-    void Start()
+
+
+    //Eat     //health = 100 + health //heatlh -= 100
+    void Awake()
     {
         if (canEat)
         {
@@ -31,10 +33,42 @@ public class AnimalScript : MonoBehaviour {
         {
             print(this.name + " can't eat");
         }
+
+
         if (animalName == "Jen")
         {
             print("Jen");
         }
+
+
+        if (health >= 10)
+        {
+            health += 100;
+        }         
+        else
+        { 
+            health = 100 - health; 
+        }
+
+        if (health > 0)
+        {
+            health = health / 2;
+            print(health);
+        }
+        else
+        {
+            print("Error");
+        }
+
+        if (speed > 20.5f)
+        {
+            speed /= 2.5f;
+        }
+
+
+
+
+        
     }
     
     //Move

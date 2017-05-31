@@ -17,5 +17,13 @@ public class Birds : AnimalScript {
     //BuildNests
     //Lay Eggs Overrides Reproduction
     //Call
+    public bool makeNoise = false;
 
+    void OnEnable()
+    {
+        if (makeNoise)
+        {
+            print(this.name + " tweets.");
+        }
+    }
 }
