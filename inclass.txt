@@ -1,0 +1,6 @@
+string lightColor = "green";
+
+if (lightColor == "green"){
+
+}
+else if ()
