@@ -4,9 +4,12 @@ using System.Collections;
 public class Birds : AnimalScript {
 
     //Properties of Birds
-    //Feathers
+    //Feather count
+    public int feathers = 100;
     //Beaks
-    //Wings
+    public float beak = .25f;
+    //Wings bool for if they work
+    public bool wings = true;
     //Legs 2
     //Color
     public Color featherColor = Color.red;
@@ -17,6 +20,7 @@ public class Birds : AnimalScript {
     //BuildNests
     //Lay Eggs Overrides Reproduction
     //Call
+
     public bool makeNoise = false;
 
     void OnEnable()
@@ -24,6 +28,21 @@ public class Birds : AnimalScript {
         if (makeNoise)
         {
             print(this.name + " tweets.");
+        }
+
+        if (wings && feathers > 0)
+        { 
+            print("Flying");
+        }
+        else
+        {
+            print(this.name + " is lame.");
+        }
+ 
+               
+        if (beak < 1 || beak > 10)
+        {
+            print(this.name + " is to small or to big.");
         }
     }
 }
