@@ -45,7 +45,7 @@ public class Reptiles : AnimalScript
             print(this.name + " is pretty harmless.");
         }
 
-        if (!(venomous || !spikes))
+        if (!(!spikes || claws))
         {
             print("Watch out for those spikes.");
         }
