@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ScopeAccess : MonoBehaviour {
+/*public class ScopeAccess : MonoBehaviour {
 
 	public int coins = 0;
 	public int num2;
@@ -20,4 +20,4 @@ public class ScopeAccess : MonoBehaviour {
 
 		return coins;
 	}
-}
+}*/
