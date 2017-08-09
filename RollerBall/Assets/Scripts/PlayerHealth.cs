@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour {
 public int regen;
@@ -30,7 +31,7 @@ public Text maxHP;
 		currentHealth -= amount;
 		if (currentHealth <= 0){
 			currentHealth = 0;
-			print("Game Over, have you tried being better?");
+			SceneManager.LoadScene(2);
 		}
 	}
 }

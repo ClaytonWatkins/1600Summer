@@ -3,9 +3,9 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class LoadScene : MonoBehaviour {
+public class Quitgame : MonoBehaviour {
 
-	public void StartGame (){
-		SceneManager.LoadScene(1);
+	public void GameOver (){
+		Application.Quit();
 	}
 }
